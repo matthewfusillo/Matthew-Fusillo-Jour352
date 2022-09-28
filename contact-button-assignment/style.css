@@ -9,7 +9,7 @@ button {
   color:#E2E8C0;
   width:200px;
   padding:10px;
-  font-size:15px:;
+  font-size:15px;
   border:none;
   margin-top:50px;
   border-radius:8px;
@@ -17,7 +17,7 @@ button {
 }
 
 button:hover {
-  background-color:##B87D4B;
+  background-color:#B87D4B;
 }
 
 h1 {
