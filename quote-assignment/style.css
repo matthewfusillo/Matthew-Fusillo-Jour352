@@ -1,0 +1,30 @@
+/*
+MY COLOR PALETTE
+Cafe Noir - #4C2E05
+Moss Green - #7A8450
+Laurel Green - #AEBD93
+Celadon - #BEE7B8
+Spanish Gray - #95969D
+*/
+
+body {
+    background-color:#4C2E05;
+    text-align:center;
+}
+
+div {
+    width: 1000px;
+    height: 280px;
+    text-align:center;
+    font-size:44px;
+    font-family: 'Courgette', cursive;
+    color:#BEE7B8;
+    border:3px solid #95969D;
+    padding:60px 30px 10px 30px;
+    margin:auto;
+}
+
+#highlight {
+    color:#7A8450;
+    font-weight:bold;
+}
