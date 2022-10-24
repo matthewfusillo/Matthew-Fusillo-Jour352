@@ -8,6 +8,7 @@
 
 #headshot {
     border-radius: 400px;
+    border:8px solid white;
     width:100%;
     margin:0px 0px 0px 0px;
 }
@@ -64,6 +65,7 @@ h2 {
     font-weight:600;
     padding:0px 0px 0px 0px;
     margin: 0px;
+    justify-content: center;
 }
 
 .nav a {
