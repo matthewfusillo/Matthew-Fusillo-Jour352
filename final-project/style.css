@@ -1,0 +1,149 @@
+@media {
+    /*Phone styles here*/
+  /*This media query targets any screen smaller than 576px wide (see below)*/
+   
+   .parallax {
+  /* The image used */
+  background-image: url("musk-headline.jpeg");
+
+  /* Set a specific height */
+  min-height: 900px; 
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#headline {
+    font-family:'Arvo', serif;
+    text-align:center;
+    font-size: 30px;
+    color:darkblue;
+    font-weight:bold;
+    height:200px;
+}
+
+#subheadline {
+    font-family:'Arvo', serif;
+    text-align:center;
+    font-size: 40px;
+    color:darkblue;
+    font-weight:bold;
+}
+
+#byline {
+    font-family:'Arvo', serif;
+    font-size:20px;
+    color:darkblue;
+    text-transform:uppercase;
+    font-weight:bold;
+    padding-top:20px;
+    padding-bottom:20px;
+}
+
+p {
+    font-size:17px;
+    font-family:'Georgia';
+}
+
+h4 {
+    font-weight:bold;
+    font-size:25px;
+    color:darkblue;
+    font-family:'Arvo'
+}
+
+#twitterhq {
+    height:auto;
+    background-size:cover;
+    width:85%;
+}
+
+figcaption {
+    font-family: 'Georgia';
+    font-size: 15px;
+    color:gray;
+}
+
+blockquote {
+    width:100%;
+    font-size:30px;
+    font-family: 'Georgia';
+    color:darkblue;
+    font-weight:bold;
+    font-style:italic;
+    text-align:center;
+    padding-top:15px;
+    padding-bottom:15px;
+    margin-top:50px;
+    margin-bottom:50px;
+    border-top: 5px solid;
+    border-bottom: 5px solid;
+    border-color:darkslategray;
+    display:block;
+}
+
+footer {
+    font-family:'Arvo';
+    width:100%;
+    background-color:darkslategray;
+    color:white;
+    text-align: center;
+    font-size:14px;
+}
+    
+    headlinecredit {
+    font-family:'Georgia';
+    font-size:14px;
+    font-style: italic;
+}
+
+}
+
+@media (min-width: 576px) {
+    /*Tablet-only styles here*/
+    /*This media query targets any screen that is at least 576px wide (but smaller than 992px wide (see below)*/
+
+    #headline {
+    font-size: 45px;
+}
+    
+    .parallax {
+  /* The image used */
+  background-image: url("musk-headline.jpeg");
+
+  /* Set a specific height */
+  min-height: 900px; 
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+    
+}
+
+
+@media (min-width: 992px) {
+    /*Desktop-only styles here*/
+    /*This media query targets any screen that is at least 992px wide*/
+
+    #headline {
+    font-size: 60px;
+}
+    
+}
+
+
+@media (min-width: 1200px) {
+  /*Large-Desktop-only styles here*/
+  /*This media query targets any screen that is at least 1200px wide*/
+
+    #headline {
+    font-size: 60px;
+}
+
+}
